@@ -17,3 +17,11 @@ Edit visible text in `index.html` directly. Dynamic labels such as “Pause moti
 When adding notes or sections, keep existing `id` values, canvas elements, and button `data-mode` attributes unless you also update the JavaScript that uses them. Place additional images or files in `assets/` and use relative links.
 
 No package install or build is required. With GitHub Pages set to the `main` branch and `/ (root)`, committed changes publish automatically after the Pages build finishes.
+
+
+## Personal Agent pages
+
+- `privacy.html` and `terms.html` contain the supplied Chinese privacy policy and terms.
+- The homepage footer identifies this site as the Personal Agent homepage and links to both policy pages.
+- The contact email is repeated in each page footer and in the privacy policy contact line. Update all occurrences together.
+- Policy and footer styles are appended to `style.css`; the existing artwork and `app.js` are unchanged.
