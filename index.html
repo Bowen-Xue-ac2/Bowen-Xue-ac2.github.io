@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#002fa7"><meta name="description" content="BowenX — an interactive personal showcase in Klein blue."><title>BowenX — A personal space</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23002fa7'/%3E%3Ctext x='15' y='48' font-size='58' fill='white'%3Ex%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="style.css"></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="logo" href="#" aria-label="x home">x<span class="dot"></span></a><nav aria-label="Main navigation"><a href="#play">Playground <span>02</span></a><button id="motion" aria-pressed="false">Pause motion <span>Ⅱ</span></button></nav></header>
+<main id="main"><section class="hero" aria-labelledby="profile-title">
+  <div class="portrait-stage">
+    <img class="portrait" src="assets/bowen-portrait.jpg" alt="Bowen standing outdoors beneath a dusk sky" width="1864" height="1280" fetchpriority="high">
+    <div class="photo-shade" aria-hidden="true"></div>
+    <div class="photo-marks" aria-hidden="true">x x x<br>x x x<br>x x x<br>x x x<br>x x x<br>x x x</div>
+    <span class="photo-signature" aria-hidden="true">x</span>
+    <div class="hero-copy"><h1 id="profile-title">Bowen<span>X</span><span class="period">.</span></h1></div>
+    <a class="portrait-next" href="#play" aria-label="Explore the playground">↘</a>
+  </div>
+</section>
+
+<section id="play" class="play"><div class="play-heading"><div><p class="section-label">02</p><h2>Make your mark.</h2></div></div><div class="lab"><div class="lab-top"><span>THE X STUDY</span><div class="modes" role="group" aria-label="Artwork arrangement"><button class="active" data-mode="cross" aria-pressed="true">01 Cross</button><button data-mode="orbit" aria-pressed="false">02 Orbit</button><button data-mode="wave" aria-pressed="false">03 Wave</button></div></div><canvas id="study" tabindex="0" aria-label="Interactive x artwork. Use the Cross, Orbit, and Wave buttons to change its arrangement."></canvas><div class="lab-bottom"><span id="mode-caption" aria-live="polite">CROSS</span><button id="shuffle">Remix the pattern ↗</button></div></div></section>
+<footer><a href="#" class="footer-x" aria-label="Back to top">x</a><div>BowenX</div><a href="#">BACK TO TOP ↑</a></footer></main><script src="app.js"></script></body></html>
